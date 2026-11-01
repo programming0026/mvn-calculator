@@ -28,6 +28,23 @@ java -jar target/mvn-calculator-1.0.0-SNAPSHOT-launcher.jar
 
 El archivo `-launcher.jar` incluye todas las dependencias.
 
+## Estructura
+
+```text
+src/main/java/com/juniverse/calculator/
+├── Main.java                  # arranque
+├── Calculator.java            # ventana Swing: visor y teclado
+└── ExpressionEvaluator.java   # evalúa la expresión (dos pilas), sin depender de la interfaz
+```
+
+La lógica de cálculo está separada de la ventana (principio de responsabilidad única), por lo que se prueba sin abrir ninguna interfaz gráfica.
+
+## Pruebas
+
+```bash
+mvn test
+```
+
 ## Licencia
 
 Código de ejemplo de uso libre con fines educativos.
