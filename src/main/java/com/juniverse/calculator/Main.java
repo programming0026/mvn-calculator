@@ -5,7 +5,7 @@ import javax.swing.SwingUtilities;
 /**
  * Abre la calculadora.
  *
- * @author linux
+ * @author Java Universe
  */
 public class Main {
 

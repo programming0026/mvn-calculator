@@ -16,7 +16,7 @@ import java.util.logging.Level;
  * Calculadora con interfaz Swing que evalúa expresiones con paréntesis, precedencia de operadores y números negativos
  * (algoritmo de dos pilas de Dijkstra).
  *
- * @author linux
+ * @author Java Universe
  */
 public class Calculator extends JFrame implements ActionListener {
     private static final Logger LOGGER = AppLogger.get(Calculator.class);
